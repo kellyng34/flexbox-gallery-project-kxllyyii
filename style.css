@@ -1,0 +1,62 @@
+body,
+html,* {
+    background-color: rgb(231, 180, 231);
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+
+.container{ 
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.card{
+    height: 50vh;
+    width: 27vw;
+    background-color: rgba(207, 103, 211, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem 0;
+    -webkit-backdrop-filter: blur(25px) saturate(10%);
+    border-radius: 12px;
+    border: 1px solid rgb(214, 100, 237);
+    box-shadow: 10px 10px rgb(192, 21, 192);
+
+
+}
+.card-title{
+    font-size: 2.2rem;
+    margin: 0.5rem 0;
+    text-transform:uppercase
+}
+.card-img {
+    width: 65%;
+}
+
+.cardprice {
+    font-size: 2.2rem;
+}
+
+.title {
+    
+    font-size: 5rem;
+    background-color: rgba(207, 103, 211, 0.2);
+    margin: 4rem auto;
+    text-align: center;
+    width: 100rem;
+    -webkit-backdrop-filter: blur(25px) saturate(10%);
+    border-radius: 12px;
+    border: 1px solid rgb(214, 100, 237);
+    box-shadow: 10px 10px rgb(192, 21, 192);
+    
+
+
+}
