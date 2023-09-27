@@ -18,7 +18,7 @@ html,* {
 }
 .card{
     height: 50vh;
-    width: 27%;
+    width: 23%;
     background-color: rgba(207, 103, 211, 0.2);
     display: flex;
     flex-direction: column;
@@ -32,12 +32,12 @@ html,* {
     transition: all 0.3s;
 
 
+
 }
 
 .card:hover
 {
-    transform:scale(1.1)
-
+    transform:scale(1.1)   
 }
 
 .card-title{
@@ -63,10 +63,12 @@ html,* {
 }
 .cardprice {
     font-size: 2.2rem;
+    transition: all 0.3s;
+
 }
 .cardprice:hover
 {
-    transform:matrix();
+    transform: rotate(25deg);
 }
 
 .title {
