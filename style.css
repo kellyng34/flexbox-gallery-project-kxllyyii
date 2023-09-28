@@ -33,17 +33,6 @@ html,* {
 }
 
 
-@media screen and (max-width: 1000px) {
-  .card {
-    width: 40%;}
-  
-}
-
-@media screen and (max-width: 812px) { 
-  .card {
-    width: 100%}
-  }
-    
 
 .card:hover
 {
@@ -141,3 +130,20 @@ path {
     }
   }
   
+  @media screen and (max-width: 1000px) {
+    .card {
+      width: 40%;}
+    
+  }
+  
+  @media screen and (max-width: 812px) { 
+    .card {
+      width: 100%;}
+    }
+
+  @media screen and (max-width: 1000px) {
+    .title {
+      width: 40%;}
+      
+    }
+      
