@@ -30,10 +30,20 @@ html,* {
     border: 5px solid rgb(214, 100, 237);
     box-shadow: 10px 10px rgb(192, 21, 192);
     transition: all 0.3s;
-
-
-
 }
+
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 40%;}
+  
+}
+
+@media screen and (max-width: 812px) { 
+  .card {
+    width: 100%}
+  }
+    
 
 .card:hover
 {
@@ -130,3 +140,4 @@ path {
       transform: rotate(60deg);
     }
   }
+  
